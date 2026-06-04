@@ -6,6 +6,9 @@ const languages = {
     practiceTitle: "🛠 Amaliy Loyihalar",
     checkBtn: "Natijani Tekshirish",
     result: "Natija: 10 ta savoldan {score} tasiga to'g'ri javob berdingiz!",
+    rulesTitle: "🛡️ Chellenj Qoidalari",
+    rulesBody:
+      "<p><strong>🚫 No AI Code Just Self-Learning:</strong> Bu loyihalarni bajarishda tayyor AI kodlaridan (ChatGPT, Gemini va b.) nusxa olish qat'iyan taqiqlanadi!</p><p><strong>📚 Qanday bajarish kerak?</strong> Muammoga duch kelsangiz, YouTube, MDN Web Docs, StackOverflow yoki boshqa ochiq resurslardan qidirib o'rganing. Haqiqiy ilm faqat o'zingiz xatolarni qidirib, kodni noldan yozganingizda shakllanadi.</p>",
     theory: [
       {
         id: 1,
@@ -178,6 +181,9 @@ const languages = {
     practiceTitle: "🛠 Practical Projects",
     checkBtn: "Check Results",
     result: "Result: You answered {score} out of 10 questions correctly!",
+    rulesTitle: "🛡️ Challenge Rules",
+    rulesBody:
+      "<p><strong>🚫 No AI Code Just Self-Learning:</strong> Copy-pasting ready-made code from AI (ChatGPT, Gemini, etc.) is strictly prohibited for these projects!</p><p><strong>📚 How to proceed?</strong> If you get stuck, use YouTube, MDN Web Docs, StackOverflow, or other documentation. True engineering skills are forged only when you research and write the code yourself from scratch.</p>",
     theory: [
       {
         id: 1,
@@ -350,6 +356,9 @@ const languages = {
     practiceTitle: "🛠 Практические Проекты",
     checkBtn: "Проверить Результат",
     result: "Результат: Вы правильно ответили на {score} из 10 вопросов!",
+    rulesTitle: "🛡️ Правила Челленджа",
+    rulesBody:
+      "<p><strong>🚫 No AI Code Just Self-Learning:</strong> Копирование готового кода у ИИ (ChatGPT, Gemini и др.) строго запрещено для этих проектов!</p><p><strong>📚 Как выполнять?</strong> Если вы застряли, ищите ответы на YouTube, MDN Web Docs, StackOverflow или других ресурсах. Настоящие навыки программирования формируются только тогда, когда вы сами разбираетесь в ошибках и пишете код с нуля.</p>",
     theory: [
       {
         id: 1,
@@ -527,6 +536,8 @@ function renderApp() {
   document.getElementById("theory-title").innerText = data.theoryTitle;
   document.getElementById("practice-title").innerText = data.practiceTitle;
   document.getElementById("submit-quiz-btn").innerText = data.checkBtn;
+  document.getElementById("rules-title").innerText = data.rulesTitle;
+  document.getElementById("rules-container").innerHTML = data.rulesBody;
 
   const theoryContainer = document.getElementById("theory-container");
   theoryContainer.innerHTML = "";

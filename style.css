@@ -171,3 +171,27 @@ body {
   font-weight: 600;
   display: none;
 }
+
+.border-top-accent {
+  border-top: 4px solid #2563eb;
+}
+
+.rules-box {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rules-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.rules-box strong {
+  color: #0f172a;
+}
