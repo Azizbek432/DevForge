@@ -34,7 +34,7 @@ devforge-battle/
 ```
 
 <details>
-    <summary>O'zbekcha</summmary>
+<summary>O'zbekcha</summary>
 
 # ⚡ DevForge jangi
 
