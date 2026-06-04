@@ -35,7 +35,8 @@ devforge-battle/
 
 <details>
     <summary>O'zbekcha</summmary>
-    # ⚡ DevForge jangi
+
+# ⚡ DevForge jangi
 
 10 ta tanqidiy nazariy savollar va 10 ta progressiv amaliy loyihalar orqali frontend rivojlantirish ko'nikmalarini oshirish uchun mo'ljallangan minimalist, yuqori unumdor va engil ko'p tilli platforma. Mutlaq toza semantika, nol tashqi ramka yuki bilan yaratilgan va o'z-o'zidan boshqariladigan kod savodxonligi uchun optimallashtirilgan.
 
