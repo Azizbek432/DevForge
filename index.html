@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevForge Battle</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="language-selector">
+        <button onclick="changeLanguage('uz')" class="lang-btn active">
+          UZ
+        </button>
+        <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+        <button onclick="changeLanguage('ru')" class="lang-btn">RU</button>
+      </div>
+
+      <header class="main-header">
+        <h1 id="main-title">⚡ DevForge Battle</h1>
+        <p id="main-subtitle">10 Theory & 10 Practical Frontend Challenges</p>
+      </header>
+
+      <main class="content-layout">
+        <section class="section-card">
+          <h2 id="theory-title">🧠 Theory Quiz</h2>
+          <form id="quiz-form">
+            <div id="theory-container"></div>
+            <button type="button" id="submit-quiz-btn" class="primary-btn">
+              Check Results
+            </button>
+          </form>
+          <div id="quiz-result" class="result-box"></div>
+        </section>
+
+        <section class="section-card">
+          <h2 id="practice-title">🛠 Practical Projects</h2>
+          <div id="practice-container"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
